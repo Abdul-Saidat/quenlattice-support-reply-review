@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "customerQuestion": "How do I change my billing date?",
+    "aiDraft": "You can change your billing date in Settings under Billing."
+  },
+  {
+    "id": 2,
+    "customerQuestion": "Can I get a refund?",
+    "aiDraft": "Refunds are available within 14 days of purchase."
+  }
+]
