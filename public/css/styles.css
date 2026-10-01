@@ -1,1 +1,45 @@
 /* Styles  go here */
+
+main {
+  padding-inline: 10px;
+  margin-top: 3rem;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#header {
+  text-align: center;
+}
+
+#customer-question {
+  background: white;
+  padding: 16px;
+  box-shadow: 0px 4px 10px rgba(94, 93, 93, 0.15);
+  border: 1px solid slategrey;
+  max-width: 40rem;
+  overflow-wrap: break-word;
+  margin-top: 32px;
+  border-radius: 24px;
+}
+
+#customer-question p, #ai-drafted-reply p {
+  color: slategrey;
+}
+
+#ai-drafted-reply {
+  background: white;
+  padding: 16px;
+  box-shadow: 0px 4px 10px rgba(94, 93, 93, 0.15);
+  border: 1px solid slategrey;
+  max-width: 40rem;
+  overflow-wrap: break-word;
+  margin-top: 32px;
+  border-radius: 24px;
+}
