@@ -12,16 +12,25 @@
     </header>
 
     <main>
-      <section id="customer-question" aria-labelledby="question-heading">
-        <h2 id="question-heading">Customer Question</h2>
-        <p>How do I change my billing date?</p>
-      </section>
-      <section id="ai-drafted-reply" aria-labelledby="draft-heading">
-        <h2 id="draft-heading">AI-drafted reply</h2>
-        <p>You can change your billing date in Settings under Billing.</p>
-      </section>
+      <div class="review-layout">
+        <div>
+          <section id="customer-question" aria-labelledby="question-heading">
+            <h2 id="question-heading">Customer question</h2>
+            <p>How do I change my billing date?</p>
+          </section>
+          <section id="ai-drafted-reply" aria-labelledby="draft-heading">
+            <h2 id="draft-heading">AI-drafted reply</h2>
+            <p>You can change your billing date in Settings under Billing.</p>
+          </section>
+        </div>
+        <section id="approved-knowledge" aria-labelledby="approved-knowledge">
+          <h2 id="approved-knowledge-heading">Approved knowledge</h2>
+          <div id="knowledge-list"></div>
+        </section>
+      </div>
     </main>
 
+    <script src="js/knowledge-data.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

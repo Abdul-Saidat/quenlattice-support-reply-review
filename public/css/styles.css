@@ -9,7 +9,8 @@ p {
   margin: 0;
 }
 
-h2 {
+h2,
+h3 {
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -18,22 +19,60 @@ h2 {
   text-align: center;
 }
 
-#customer-question {
+.review-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+#customer-question,
+#ai-drafted-reply,
+#approved-knowledge {
   background: white;
   padding: 16px;
   box-shadow: 0px 4px 10px rgba(94, 93, 93, 0.15);
   border: 1px solid slategrey;
   max-width: 40rem;
   overflow-wrap: break-word;
-  margin-top: 32px;
+  /* margin-top: 32px; */
   border-radius: 24px;
-}
-
-#customer-question p, #ai-drafted-reply p {
-  color: slategrey;
 }
 
 #ai-drafted-reply {
+  margin-top: 30px;
+}
+
+#question-heading,
+#draft-heading {
+  margin-bottom: 8px;
+}
+
+/* #customer-question p, #ai-drafted-reply p {
+  color: rgb(25, 31, 37);
+} */
+
+#knowledge-list {
+  margin-top: 6px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+}
+
+.sourceLabel {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .review-layout {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* #ai-drafted-reply {
   background: white;
   padding: 16px;
   box-shadow: 0px 4px 10px rgba(94, 93, 93, 0.15);
@@ -42,4 +81,4 @@ h2 {
   overflow-wrap: break-word;
   margin-top: 32px;
   border-radius: 24px;
-}
+} */
