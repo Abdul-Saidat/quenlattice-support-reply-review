@@ -28,12 +28,17 @@ Double-click `public/index.html`, or open it with the Live Server extension in V
 
 ## What you'll see
 
-The agent can compare the AI's draft with the approved policy.
-
 - Customer question: The question the customer asked.
-- AI-drafted reply: Text response from the AI assistant.
+- AI-drafted reply: The reply the AI assistant suggested.
 - Approved knowledge: Shows the approved policy the draft is based on, with its title, source, and policy text.
+  Together, these let the agent compare the AI's draft with the approved policy.
+
+## Quick verification
+
+- The page opens with the title "Support Reply Review"
+- Three areas are visible: Customer question, AI-drafted reply, and Approved knowledge
+- The Approved knowledge area shows the record "How to change billing date" with its source and policy text
 
 ## Sample data
 
-The sample content is fictional and is not connected to real customers or a real company system.
+The sample content is fictional and is not connected to real customers or a real company system. No real messages are sent from this project.
